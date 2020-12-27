@@ -107,8 +107,54 @@ h1{
   cursor: pointer;
 }
 
+/*animation Bouton bloc Gauche*/
 .btn-acceuil:hover{
   transition: all 0.2s ease-in-out;
   color: #000;
   background: #f1f1f1;
 }
+
+.b1{
+  margin-left: 8vw;
+}
+
+.b2{
+  margin-left: 10px;
+}
+
+.bloc-droit-acceuil{
+  background-image: url(ressources/gym-accueil.jpg);
+  width: 60%;
+  height: 100%;
+  background-position: 70% 10%;
+}
+
+/* Media Acceuil Fondu */
+
+
+
+@media screen and (min-width: 360px) and (max-width:1170px){
+  h1 {
+    font-size: 40px;
+  }
+  .bloc-gauche-acceuil{
+    width: 20%;
+  }
+
+  .bloc-droit-acceuil{
+    width: 80%;
+    background-position: 71% 7%;
+  
+  }
+
+  .acceuil p{
+    font-size: 20px;
+    
+  }
+
+  .btn-acceuil{
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
