@@ -42,6 +42,7 @@ nav a{
   text-transform: uppercase;
 }
 
+/* ----------- Media Navigation */
 @media screen and (max-width: 550px){
   nav li{
     margin: 0 8px;
@@ -158,3 +159,27 @@ h1{
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 354px){
+  h1{
+    font-size: 30px;
+  }
+
+  .acceuil p{
+    font-size: 15px;
+  }
+
+  .acceuil{
+    height: 400px;
+  }
+
+  .btn-acceuil{
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .bloc-droit-acceuil{
+    box-shadow: 2px 0px 100px 100px #000;
+    background-position-x: 73%;
+    
+  }
+}
