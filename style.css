@@ -159,7 +159,7 @@ h1{
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 354px){
+@media screen and (min-width: 320px) and (max-width: 358px){
   h1{
     font-size: 30px;
   }
@@ -182,4 +182,21 @@ h1{
     background-position-x: 73%;
     
   }
+}
+
+
+/*------------- Section Infos Carte -------------*/
+
+.titre-section-info{
+  color: #000;
+  text-align: center;
+  font-size: 65px;
+  padding: 50px 20px 120px;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.section-info{
+  display: flex;
+  justify-content: center;
+  
 }
