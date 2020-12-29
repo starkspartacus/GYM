@@ -242,3 +242,26 @@ h1{
 }
 
 /* Media Section Info */
+
+@media screen and (max-width: 1400px) {
+  .deco-info{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .titre-section-info{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .titre-section-info{
+    font-size: 32px;
+    padding: 40px 20px 40px;
+
+  }
+  .carte-info{
+    margin: 0 10px 45px;
+  }
+}
